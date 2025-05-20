@@ -10,7 +10,7 @@ import java.util.List;
 
 // Nadine
 @RestController
-@RequestMapping("/RequestRent")
+@RequestMapping("api/RequestRent")
 @CrossOrigin
 public class RequestRentController {
 

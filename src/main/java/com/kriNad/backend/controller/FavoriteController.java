@@ -12,7 +12,7 @@ import java.util.List;
 
 //Kristina
 @RestController
-@RequestMapping("/Favorites")
+@RequestMapping("api/Favorites")
 @CrossOrigin(origins = "*")
 public class FavoriteController {
 

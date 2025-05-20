@@ -16,7 +16,7 @@ import java.util.List;
 
 // Nadine & Kristina
 @RestController
-@RequestMapping("/PropertyRent")
+@RequestMapping("api/PropertyRent")
 @CrossOrigin
 public class PropertyRentController {
 

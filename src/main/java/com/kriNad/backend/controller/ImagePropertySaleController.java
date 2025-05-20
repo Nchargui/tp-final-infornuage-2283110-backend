@@ -10,7 +10,7 @@ import java.util.List;
 
 //Nadine
 @RestController
-@RequestMapping("/ImagePropertySale")
+@RequestMapping("api/ImagePropertySale")
 @CrossOrigin
 
 public class ImagePropertySaleController {

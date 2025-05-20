@@ -9,7 +9,7 @@ import java.util.List;
 
 //Nadine
 @RestController
-@RequestMapping("/ImagePropertyRent")
+@RequestMapping("api/ImagePropertyRent")
 @CrossOrigin
 public class ImagePropertyRentController {
 
