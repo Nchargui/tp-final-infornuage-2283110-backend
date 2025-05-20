@@ -10,7 +10,7 @@ import java.util.List;
 
 // Nadine
 @RestController
-@RequestMapping("api/RequestSale")
+@RequestMapping("/api/RequestSale")
 @CrossOrigin
 public class RequestSaleController {
 

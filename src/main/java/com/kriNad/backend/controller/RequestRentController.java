@@ -10,7 +10,7 @@ import java.util.List;
 
 // Nadine
 @RestController
-@RequestMapping("api/RequestRent")
+@RequestMapping("/api/RequestRent")
 @CrossOrigin
 public class RequestRentController {
 
@@ -32,7 +32,7 @@ public class RequestRentController {
         return requestRentService.getAllRequestByCustomerId(id);
     }
 
-    @GetMapping("verifyRequest/{customerId}/{propertyRentId}")
+    @GetMapping("/verifyRequest/{customerId}/{propertyRentId}")
     public boolean verifyRequest(@PathVariable Long customerId,@PathVariable  Long propertyRentId){
         return requestRentService.isApplied(customerId,propertyRentId);
     }

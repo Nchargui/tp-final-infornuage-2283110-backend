@@ -17,7 +17,7 @@ import java.util.List;
 
 // Kristina et Nadine
 @RestController
-@RequestMapping("api/PropertySale")
+@RequestMapping("/api/PropertySale")
 @CrossOrigin("*")
 public class PropertySaleController {
 
